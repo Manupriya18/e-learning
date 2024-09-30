@@ -1,0 +1,186 @@
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+}
+#navbar a{
+    margin: 10px;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+#navbar a:hover{
+    color: grey;
+}
+#logo{
+    background-image: url('Screenshot\ 2024-09-12\ 110210.png');
+    height: 60px;
+    width: 85px;
+    background-size: cover;
+    margin-right: 310px;
+}
+#login{
+    margin-left: 310px;
+    margin-right: 10px;
+}
+body{
+    background-color: black;
+}
+#login{
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 2rem;
+}
+#signup{
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 2rem;
+}
+#pic{
+    background-image: url('idk.png');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+#pic p{
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+    font-weight: 900;
+    margin-left: 990px;
+    margin-top: 90px;
+}
+#explore{
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 1000px;
+    margin-top: -9px;
+    border: none;
+    border-radius: 3rem;
+}
+#explore:hover{
+    transform: scale(1.02);
+}
+#login:hover{
+    background-color: lightblue;
+    color: black;
+}
+#signup:hover{
+    background-color: lightblue;
+    color: black;
+}
+p{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+#second a{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.box{
+    height: 100px;
+    width: 160px;
+    background-color: gray;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    transform: scale(1.02);
+}
+
+
+
+#third a{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 15px;
+    margin-top: 18px;
+}
+.boxes{
+    height: 180px;
+    width: 310px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-radius: 1rem;
+    
+}
+#third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.boxes:hover{
+    transform: scale(1.02);
+}
+#last{
+    background-color: white;
+}
+#last p{
+    color: black;
+}
+#last button{
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 1rem;
+    font-size: 15px;
+    border: none;
+    
+}
+#last a p{
+    color: black;
+    font-size: large;
+    font-weight: 200;
+}
+#footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#footer p{
+    font-size: 19px;
+    margin: 8px;
+}
